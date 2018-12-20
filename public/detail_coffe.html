@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>星巴克|用每一杯咖啡传递星巴克独特的咖啡体验</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="css/login.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/login.css"/>
+	<link rel="stylesheet" href="css/detail.css">
+	<link rel="stylesheet" href="css/detail_coffe.css"/>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 col-lg-4">
+			<!-- 折叠导航栏 -->
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-sm bg-white navbar-light my_flexed">
+						<!--最前面一个-->
+						<a href="index.html" class="navbar-brand"><img src="img/index/logo.svg" alt=""></a>
+						<!--小屏幕下右侧的按钮-->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"><span class="navbar-toggler-icon text-dark"></span></button>
+						<!--第二部分 导航栏菜单项 大屏幕平铺，小屏幕隐藏-->
+						<div id="content" class="collapse navbar-collapse">
+							<ul class="navbar-nav">
+								<li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">门店</a></li>
+								<li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">我的账户</a></li>
+								<li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">菜单</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="my_nav_p">
+						<h3 class="font-weight-bold">饮料☕</h3>
+						<div class="text-left ml-5">
+							<a class="my_under_line" href="http://localhost:3000/detail.html"><h6 class="text-dark mt-3"  id="my_left_family">手工调制浓缩咖啡</h6></a>
+						</div>
+						<p class="m-5 ml-3"><a class="btn text-info my_border_radius mr-4" href="http://localhost:3000/login.html"><img class="mr-1" src="img/index/icon-account.svg"alt="">登录</a> <a class="my_border_radius btn text-info border-info" href="http://localhost:3000/register.html">注册</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-lg-8 my_bg_f7f7f7 my_right">
+			<!--title-->
+			<!--左侧详情行-->
+			<div class="row">
+				<div class="col-12 d-flex mt-5 pb-5 pl-4">
+					<div class="div-prev mr-5">
+						<img class="my_middle_img" src="img/drink/caffe-latte.jpg" alt=""/>
+						<div id="mask" class="d-none"></div>
+						<!--玻璃-->
+						<div id="super-mask"></div>
+						<!--大图-->
+						<div id="div-lg" class="d-none"></div>
+						<div class=""></div>
+					</div>
+					<div class="div-details d-flex flex-column justify-content-center">
+						<p>kkdfa</p>
+						<h3>美式咖啡</h3>
+						<div class="font-weight-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eveniet, ex itaque laboriosam nostrum suscipit tempora. Autem, blanditiis eligendi iusto nam obcaecati quaerat quos rerum sapiente sunt tempora velit vitae!</div>
+					</div>
+				</div>
+			</div>
+			<!--猜你喜欢-->
+			<div class="row">
+				<div class="col-12 my_like">
+					<h5 class="mb-3">猜你喜欢</h5>
+					<img class="pt-4 pb-4 my_prev btn-light disabled btn" src="img/product_detail/hover-prev.png" alt=""/>
+					<div class="d-inline-block my_container position-relative">
+						<ul class="my_ul_lp list-unstyled text-center d-flex position-absolute">
+							<li class="float-left"><img src="img/drink/caffe-latte.jpg" alt=""/><h6>dddddd</h6></li>
+							<li class="float-left"><img src="img/drink/caffe-latte.jpg" alt=""/><h6>dddddd</h6></li>
+							<li class="float-left"><img src="img/drink/caffe-latte.jpg" alt=""/><h6>dddddd</h6></li>
+							<li class="float-left"><img src="img/drink/caffe-latte.jpg" alt=""/><h6>dddddd</h6></li>
+						</ul>
+					</div>
+					<img class="pt-4 pb-4 btn-light btn my_next" src="img/product_detail/hover-next.png" alt=""/>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="motaik">
+	<div class="inner">登录成功</div>
+	<div class="text-white my_cha">X</div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/detail_coffe.js"></script>
+</body>
+</html>

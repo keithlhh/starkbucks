@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星巴克|用每一杯咖啡传递星巴克独特的咖啡体验</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/register.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-lg-4">
+      <!-- 折叠导航栏 -->
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-sm bg-white navbar-light my_flexed">
+            <!--最前面一个-->
+            <a href="index.html" class="navbar-brand"><img src="img/index/logo.svg" alt=""></a>
+            <!--小屏幕下右侧的按钮-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"><span class="navbar-toggler-icon text-dark"></span></button>
+            <!--第二部分 导航栏菜单项 大屏幕平铺，小屏幕隐藏-->
+            <div id="content" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">门店</a></li>
+                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">我的账户</a></li>
+                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="http://localhost:3000/detail.html">菜单</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="my_nav_p">
+            <h3 class="ml-5">心情惬意，来杯咖啡吧☕</h3>
+            <p class="mt-5"><a class="btn text-info my_border_radius mr-4" href="http://localhost:3000/login.html"><img class="mr-1" src="index\icon-account.svg"alt="">登录</a> <a class="my_border_radius btn text-info border-info" href="#">注册</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-8">
+      <!-- 星享俱乐部 -->
+      <div class="row pt-5  pb-5 my_bg_gray2 my_border_bottom">
+        <div class="col-xs-6 col-md-6 col-sm-12 d-flex text-sm-center text-md-left justify-content-md-end justify-content-sm-center">
+          <div class="">
+            <h3>星享俱乐部</h3>
+            <p>开启您的星享之旅，星星越多、会员等级越高</p>
+            <span>、好礼越丰富。</span><a class="text-info" href="#">了解更多</a>
+            <p class="mt-3"><a class="btn text-info border-info my_border_radius mr-4" href="#">查看详情</a></p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-6 col-sm-12 d-flex justify-content-center mt-sm-5 mt-md-0">
+          <img class="w-50" src="index/logo-msr.svg" alt="">
+        </div>
+      </div>
+      <!-- reginster -->
+      <div class="row">
+        <div class="col-12 card">
+          <!--form表单注册-->
+          <form class="form-horizontal text-left pl-5" method="post" action="/user/regist">
+            <div class="form-group">
+              <label for="inputuser1" class="col-sm-2 control-label">用户名</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control w-50 d-inline-block mr-4" id="inputuser1" placeholder="username" name="uname"><span id="uname_span" class="hide">用户名为6-10位数字或字符</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword2" class="col-sm-2 control-label">密码</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control w-50 d-inline-block mr-4" id="inputPassword2" placeholder="Password" name="upwd"><span id="upwd_span" class="hide">密码为6-10位数字或字符</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword2_conf" class="col-sm-2 control-label">确认密码</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control w-50 d-inline-block mr-4" id="inputPassword2_conf" placeholder="Password" name="upwd_conf"><span id="upwd_span_conf" class="hide">密码为6-10位数字或字符</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <!-- <address></address> -->
+              <label class="col-sm-2 control-label">地址</label>
+              <div class="col-sm-10">
+              <select name="add_provs">
+                <option>—请选择—</option><!--0-->
+                <option>北京市</option><!--1-->
+                <option>天津市</option>
+                <option>河北省</option>
+              </select>
+              <select name="add_cities" class="hide">
+              </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPhone4" class="col-sm-2 control-label">电话号码</label>
+              <div class="col-sm-10">
+                <input type="tel" class="form-control w-50 d-inline-block mr-4" id="inputPhone4" placeholder="phone" name="phone"><span id="phone_span" class=""></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail5" class="col-sm-2 control-label">电子邮箱</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control w-50 d-inline-block mr-4" id="inputEmail5" placeholder="email" name="email"><span id="email_span" class=""></span>
+              </div>
+            </div>
+            <div class="checkbox">
+              <label class="col-sm-2 control-label">性别</label>
+              <label>
+                <input type="radio" name="gender" value="1"> 男
+              </label>
+              <label>
+                <input type="radio" name="gender" value="0"> 女
+              </label>
+              <label>
+                <input type="radio" name="gender" value="2"> 保密
+              </label>
+            </div>
+            <div class="form-group mt-4">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" class="btn btn-info">注册</button>
+                <button type="reset" class="btn btn-danger">重置</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/register.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

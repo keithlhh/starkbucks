@@ -1,0 +1,7 @@
+.border_top{
+  transition: all .3s linear; 
+}
+.border_top:hover{
+  box-shadow: 0 0 9px #ccc;
+  transform: translateY(-5px);
+}

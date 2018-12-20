@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星巴克|用每一杯咖啡传递星巴克独特的咖啡体验</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-lg-4">
+            <!-- 折叠导航栏 -->
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-sm bg-white navbar-light my_flexed">
+                        <!--最前面一个-->
+                        <a href="index.html" class="navbar-brand"><img src="img/index/logo.svg" alt=""></a>
+                        <!--小屏幕下右侧的按钮-->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"><span class="navbar-toggler-icon text-dark"></span></button>
+                        <!--第二部分 导航栏菜单项 大屏幕平铺，小屏幕隐藏-->
+                        <div id="content" class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">门店</a></li>
+                                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">我的账户</a></li>
+                                <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">菜单</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="my_nav_p">
+                        <h3 class="font-weight-bold">饮料☕</h3>
+                        <div class="text-left ml-5"  id="my_left_div">
+                            <a class="my_under_line" href="#"><h6 class="text-dark mt-3">手工调制浓缩咖啡</h6></a>
+                        </div>
+                        <p class="m-5 ml-3"><a class="btn text-info my_border_radius mr-4" href="http://localhost:3000/login.html"><img class="mr-1" src="img/index/icon-account.svg"alt="">登录</a> <a class="my_border_radius btn text-info border-info" href="http://localhost:3000/register.html">注册</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-8 my_bg_f7f7f7 my_right">
+            <!--title-->
+            <div class="row mt-4 ml-3">
+                <div class="col-12">
+                    <h6 id="my_title">手工调制浓缩咖啡</h6>
+                </div>
+            </div>
+            <!--缩略图-->
+            <ul class="list-unstyled my_right_ul"><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=1"><img class="rounded-circle my_img_150" src="img/drink/caffe-americano.jpg" alt=""><strong class="mt-3 d-block text-muted">美式咖啡（热/冷）</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=2"><img class="rounded-circle my_img_150" src="img/drink/caffe-latte.jpg" alt=""><strong class="mt-3 d-block text-muted">拿铁（热/冷）</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=3"><img class="rounded-circle my_img_150" src="img/drink/cappuccino.jpg" alt=""><strong class="mt-3 d-block text-muted">摩卡（热/冷)</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=4"><img class="rounded-circle my_img_150" src="img/drink/caramel-macchiato.jpg" alt=""><strong class="mt-3 d-block text-muted">卡布奇诺（热/冷）</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=5"><img class="rounded-circle my_img_150" src="img/drink/espresso.jpg" alt=""><strong class="mt-3 d-block text-muted">焦糖玛奇朵（热/冷）</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=6"><img class="rounded-circle my_img_150" src="img/drink/flat-white.jpg" alt=""><strong class="mt-3 d-block text-muted">浓缩咖啡</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=7"><img class="rounded-circle my_img_150" src="img/drink/hazelnut-flavored-latte.jpg" alt=""><strong class="mt-3 d-block text-muted">馥芮白™</strong></a></li><li class="w-25 text-center float-left mt-5"><a class="my_under_line" href="http://localhost:3000/detail_coffe.html?family=hand_coffe&amp;did=8"><img class="rounded-circle my_img_150" src="img/drink/vanilla-flavored-latte.jpg" alt=""><strong class="mt-3 d-block text-muted">榛果风味拿铁（热/冷）</strong></a></li></ul>
+        </div>
+    </div>
+</div>
+<div class="motaik">
+    <div class="inner">登录成功</div>
+    <div class="text-white my_cha">X</div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.my_bg_dark{
+	background: #2A3F54 !important;
+}
+.my_admin_img{
+	width: 50px; height: 50px;
+}
+.my_font_size_12{
+	font-size: 12px !important;
+}
+/*手风琴*/
+.data_ul_par ul{
+	height: 0px; overflow: hidden;
+	transition: all .7s linear;
+}
+.open{
+	height: 160px !important;
+}
+.data_ul_par li span:hover{
+	cursor:pointer;
+}
+.my_left{
+	min-width: 183px; min-height: 750px;
+}
+.my_small_img{
+	width: 25px; height: 25px; vertical-align: bottom;
+}
+.my_small_pic{
+	width: 40px !important; height: 40px !important;
+}

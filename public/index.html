@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星巴克|用每一杯咖啡传递星巴克独特的咖啡体验</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4">
+        <!-- 折叠导航栏 -->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-white navbar-light my_flexed">
+                    <!--最前面一个-->
+                    <a href="" class="navbar-brand"><img src="img/index/logo.svg" alt=""></a>
+                    <!--小屏幕下右侧的按钮-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"><span class="navbar-toggler-icon text-dark"></span></button>
+                    <!--第二部分 导航栏菜单项 大屏幕平铺，小屏幕隐藏-->
+                    <div id="content" class="collapse navbar-collapse">
+                      <ul class="navbar-nav">
+                        <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">门店</a></li>
+                        <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="#">我的账户</a></li>
+                        <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="http://localhost:3000/detail.html">菜单</a></li>
+                        <li class="nav-item text-nowrap"><a class="nav-link text-dark font-weight-bold" href="http://localhost:3000/admin.html">管理</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="my_nav_p">
+            <h3 class="ml-5 font-weight-bold">心情惬意，来杯咖啡吧☕</h3>
+            <p class="mt-5"><a class="btn text-info my_border_radius mr-4" href="http://localhost:3000/login.html"><img class="mr-1" src="img/index/icon-account.svg" alt="">登录</a> <a class="my_border_radius btn text-info border-info"
+              href="http://localhost:3000/register.html">注册</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-8">
+        <div class="row">
+          <div class="col-12 pl-0 pr-0">
+            <!-- nav轮播 -->
+            <div id="demo" class="carousel" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img class="w-100" src="img/index/nav_kv/kv-1.jpg" alt="" />
+                  <!-- <h3 class="carousel-caption">我是图片上的样式</h3> -->
+                </div>
+                <div class="carousel-item"><img class="w-100" src="img/index/nav_kv/kv-2.jpg" alt="" /></div>
+              </div>
+              <!--导航标识符-->
+              <ul class="carousel-indicators">
+                <li class="active bg-danger" data-target="#demo" data-slide-to="0"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+              </ul>
+              <!--左右箭头-->
+              <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#demo" class="carousel-control-next" data-slide="prev">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- tmall三幅图 -->
+        <div class="row my_bg_gray pb-4 pr-4">
+          <div class="col-sm-12 col-md-4 pt-4 p-0 pl-4">
+            <a class="d-inline-block" href="#"><img class="w-100 border_top" src="img/index/tmall/homepage-career-cn.jpg" alt=""></a>
+          </div>
+          <div class="col-sm-12 col-md-4 pt-4 p-0 pl-4">
+            <a class="d-inline-block" href="#"><img class="w-100 border_top" src="img/index/tmall/starbucks-design-studio-web-china.jpg"
+                alt=""></a>
+          </div>
+          <div class="col-sm-12 col-md-4 pt-4 p-0 pl-4">
+            <a class="d-inline-block" href="#"><img class="w-100 border_top" src="img/index/tmall/starbucks-tmall-1008-cn.jpg" alt=""></a>
+          </div>
+        </div>
+        <!-- 星享俱乐部 -->
+        <div class="row mt-5  mb-5">
+          <div class="col-md-6 col-sm-12 d-flex text-sm-center text-md-left justify-content-md-end justify-content-sm-center">
+            <div class="">
+              <h3>星享俱乐部</h3>
+              <p>开启您的星享之旅，星星越多、会员等级越高</p>
+              <span>、好礼越丰富。</span><a class="text-info" href="#">了解更多</a>
+              <p class="mt-3"><a class="btn text-info border-info my_border_radius mr-4" href="#">登录</a> <a class="my_border_radius btn text-info border-info"
+                  href="register.html">注册</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center mt-sm-5 mt-md-0">
+            <img class="w-50 border_top" src="img/index/logo-msr.svg" alt="">
+          </div>
+        </div>
+        <!-- 星巴克精选 -->
+        <div class="row">
+          <div class="col-12 text-center my_bg_gray p-5">
+            <h4>星巴克精选</h4>
+            <p class="mt-5">在星巴克天猫旗舰店发现更多咖啡心意</p>
+          </div>
+        </div>
+        <div class="row my_bg_gray">
+          <div class="col-sm-6 col-md-3 my_relative pt-4 text-center">
+            <a href="#" class="my_under_line bg-white d-inline-block border-info w-75 border-info mb-5 my_a_height border_top">
+              <img class="my_index_img_bg" src="img/index/星巴克精选/tmall-card-01.png" alt="">
+              <p class=" font-weight-bold  text-dark">星享卡</p>
+              <p class=" text-dark">开始您的 <br> 星巴克专属之旅</p>
+              <p class=" text-dark">了解更多</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3 my_relative pt-4 text-center">
+            <a href="#" class="my_under_line bg-white d-inline-block border-info w-75 border-info mb-5 my_a_height border_top">
+              <img class="my_index_img" src="img/index/星巴克精选/tmall-card-02.png" alt="">
+              <p class=" font-weight-bold  text-dark">星享卡</p>
+              <p class=" text-dark">开始您的 <br> 星巴克专属之旅</p>
+              <p class=" text-dark">了解更多</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3 my_relative pt-4 text-center">
+            <a href="#" class="my_under_line bg-white d-inline-block border-info w-75 border-info mb-5 my_a_height border_top">
+              <img class="my_index_img" src="img/index/星巴克精选/tmall-eticket.png" alt="">
+              <p class=" font-weight-bold  text-dark">星享卡</p>
+              <p class=" text-dark">开始您的 <br> 星巴克专属之旅</p>
+              <p class=" text-dark">了解更多</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3 my_relative pt-4 text-center">
+            <a href="#" class="my_under_line bg-white d-inline-block border-info w-75 border-info mb-5 my_a_height border_top">
+              <img class="my_index_img" src="img/index/星巴克精选/tmall-reserve.png" alt="">
+              <p class=" font-weight-bold  text-dark">星享卡</p>
+              <p class=" text-dark">开始您的 <br> 星巴克专属之旅</p>
+              <p class=" text-dark">了解更多</p>
+            </a>
+          </div>
+        </div>
+        <!-- 咖啡星讲堂 -->
+        <div class="row">
+          <div class="col-12 text-center pt-5">
+            <h3>1912 派克街 | 咖啡星讲堂</h3>
+            <p class="m-5">了解更多星巴克咖啡文化</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 my_bottom_part my_hidden d-flex">
+            <ul class="list-unstyled my_clear_float d-flex flex-nowrap justify-content-around">
+              <li class="pull-left my_float_left my_bot_car_img mr-3 border_top">
+                <a href="#" class="my_under_line">
+                  <img class="my_img" src="img/index\bot_caro\coffeehouse-coffee-cultivation-kv.jpg" alt="">
+                  <h5 class="p-3 card text-muted">咖啡的起源与培植</h5>
+                </a>
+              </li>
+              <li class="pull-left my_float_left my_bot_car_img mr-3 border_top">
+                <a href="#" class="my_under_line">
+                  <img class="my_img" src="img/index\bot_caro\coffeehouse-4-fundamentals-kv.jpg" alt="">
+                  <h5 class="p-3 card text-muted">咖啡调制</h5>
+                </a>
+              </li>
+              <li class="pull-left my_float_left my_bot_car_img mr-3 border_top">
+                <a href="#" class="my_under_line">
+                  <img class="my_img" src="img/index\bot_caro\coffeehouse-pour-over-kv.jpg" alt="">
+                  <h5 class="p-3 card text-muted">咖啡烘培</h5>
+                </a>
+              </li>
+              <li class="pull-left my_float_left my_bot_car_img mr-3 border_top">
+                <a href="#" class="my_under_line">
+                  <img class="my_img" src="img/index\bot_caro\coffeehouse-roast-story-kv.jpg" alt="">
+                  <h5 class="p-3 card text-muted">手冲咖啡</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.div-prev img{
+	height: 350px; width: 350px;vertical-align: bottom;
+}
+.my_ul_lp li img{
+	width: 100px;
+}
+.my_container{
+	width: 400px; overflow: hidden; height: 150px; vertical-align: middle;
+}
+.my_like>img{
+	cursor: pointer;
+}
+.my_ul_lp>li>a>div:last-child{
+	font-size: 12px;
+	width: 100px;
+}
+.my_like>img:hover{
+	background: #aaa;
+}
+/*大图样式*/
+.div-prev{
+	position: relative;
+}
+#div-lg{
+	width: 350px; height: 350px;
+	position: absolute; left: 380px; top: 0px;
+}
+#mask{
+	width: 125px; height: 125px; background: rgba(255,22,111,0.6); position: absolute; top: 0;
+}
+#super-mask{
+	position: absolute;
+	width: 350px; height: 350px; top: 0;
+}
+#super-mask:hover{
+	cursor: move;
+}
